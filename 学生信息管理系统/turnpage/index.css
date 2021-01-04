@@ -1,0 +1,19 @@
+.my-page::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.my-page > span {
+    float: left;
+}
+.my-page > div {
+    float: left;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.my-page .my-page-current {
+    background-color: #428bca;
+    color: #fff;
+}
